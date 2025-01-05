@@ -968,6 +968,20 @@ ul .free:before {
     transform: translateX(0px);  
   }
 }
+@media (max-width: 1390px) {
+  .slider_section .img-box img {
+    width: 100%;
+    transform: translateX(70px);  
+  }
+  
+}
+@media (max-width: 1310px) {
+  .slider_section .img-box img {
+    width: 100%;
+    transform: translateX(0px);  
+  }
+  
+}
 
 @media (max-width: 992px) {
   .hero_area {
@@ -1073,4 +1087,3 @@ ul .free:before {
 .footer_section p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */
